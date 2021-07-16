@@ -1,0 +1,43 @@
+{
+  "id": 1,
+  "project": {
+    "id": 1,
+    "projectKey": "PROJECTKEY",
+    "name": "project name",
+    "chartEnabled": true,
+    "subtaskingEnabled": true,
+    "projectLeaderCanEditProjectLeader": false,
+    "useWikiTreeView": true,
+    "textFormattingRule": "markdown",
+    "archived": false
+  },
+  "type": 12,
+  "content": {
+    "change_type": "update",
+    "ref": "refs/heads/master",
+    "repository": {
+      "id": 1,
+      "name": "repository-name",
+      "description": null
+    },
+    "revision_count": 1,
+    "revision_type": "commit",
+    "revisions": [
+      {
+        "rev": "revision string",
+        "comment": "commit comment"
+      }
+    ]
+  },
+  "notifications": [],
+  "createdUser": {
+    "id": 1,
+    "userId": null,
+    "name": "user name",
+    "roleType": 1,
+    "lang": "ja",
+    "mailAddress": null,
+    "nulabAccount": null
+  },
+  "created": "2021-07-06T00:52:13Z"
+}
